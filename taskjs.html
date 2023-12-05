@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task js</title>
+
+</head>
+<body>
+	<div style="height: 500px;width: 100%;background: lightblue;"Id="on">
+
+		<h2 style="font-size: 50px;margin-left: 500px;margin-top: 150px;float: left;">we all love nature</h2>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<center><p style="font-size: 10px;"Id="off">Look deep into nature, and you will understand everything better.</p></center>
+		<br>
+
+		<button style="height:40px;width: 150px;background: black;color: white;margin-left: 600px;border-radius: 100px;border:none;">Get Started</button>
+		
+	</div>
+	<button onclick="a()" style="height:40px;width:50px;background: red;"></button>
+	<button onclick="b()" style="height:40px;width:50px;background: green;"></button>
+    <button onclick="c()" style="height:40px;width:50px;background: yellow;"></button>
+    <button onclick="d()" style="height:40px;width:50px;background: gold;"></button>
+    <button onmouseenter ="z()" onmouseleave ="y()" style="height: 40px;width: 50px;background:black;color: white;">40px</button>
+
+
+
+    <script>
+
+	function a(){
+
+		document.getElementById('on').style.cssText="background:red;height:600px;"
+
+	}
+
+	function b(){
+
+		document.getElementById('on').style.cssText="background:green;height:400px"
+	}
+
+	function c(){
+
+		document.getElementById('on').style.cssText="background:yellow;height:600px"
+	}
+
+	function d(){
+
+		document.getElementById('on').style.cssText="background:gold;height:400px"
+	}
+
+	function z(){
+		document.getElementById('off').style.cssText="font-size:40px;"
+	}
+
+	function y(){
+		document.getElementById('off').style.cssText="font-size:10px;"
+	}
+
+</script>
+
+</body>
+</html>

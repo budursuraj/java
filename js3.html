@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JAVASCRIPT</title>
+</head>
+<body onload="modal()">
+
+<center>
+<form>
+<input type="text" name="" onfocus="first()" id="first1"><br><br>
+
+<input type="password" name=""  onfocus="second()" id="first2"  style="outline-color: purple;"><br><br>
+
+
+<button>SUBMIT</button>
+</form>
+<div style="height:100%;width: 100%;background: blue;color: blue;display: none;" id="my" >
+<div style="height:500px;width: 500px;" id="helo">
+
+	<center>THIS IS MY MODAL</center>
+
+	<button onclick="cl()">cl</button>
+
+</div>
+</div>
+
+<script type="text/javascript">
+	function welcome(){
+		alert('welcome to javascript page');
+	}
+
+
+function cl(){
+	document.getElementById('helo').style.display='none';
+}
+
+	function modal(){
+		document.getElementById('my').style.display='block';
+	}
+
+function first(){
+
+	document.getElementById('first1').style.cssText='background:yellow;height:50px;outline:2px dotted red;border:none;border-radius:50px';
+
+
+	
+}
+
+
+function second(){
+
+
+	document.getElementById('first2').style.cssText='background:yellow;height:50px;outline:2px dotted red;border:none;border-radius:50px';
+}
+</script>
+
+</center>
+</body>
+</html>

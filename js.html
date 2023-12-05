@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javascript</title>
+</head>
+<body>
+      
+      <h1>javascript</h1>
+      
+      	<button onclick="document.getElementById('bulb').src='img/bl1.png'"style="height: 100px;width: 200px;background: blue;font-size: 30px;color: white;">
+      		on bulb
+      		
+      	</button>
+	   <img src="img/bl.png" id="bulb">
+	   <button onclick="document.getElementById('bulb').src='img/bl.png'"style="height: 100px;width: 200px;background: blue;font-size: 30px;color: white;">
+	   	 off bulb
+	   	
+	   </button>
+	   <br><br>
+
+	   <button onclick="document.getElementById('jivan').innerHTML='hello java'"style="height: 50px;width: 100px;background: red;font-size: 20px;color: white;">
+	     click here
+	   	
+	   </button>
+	   <h1 id="jivan"></h1>
+
+	   <button ondblclick="document.getElementById('thor').innerHTML='hey i am thor odin son'"style="height: 50px;width: 100px;background:red;font-size:20px;color:white;">
+	   	click here1
+	   	
+	   </button>
+	   <h1 id="thor"></h1>
+
+	   <button onmouseenter="document.getElementById('loki').innerHTML='hey i am loki odin son'"style="height: 50px;width: 100px;background: green;font-size: 20px;color: white;">
+	   	yes
+	   	
+	   </button>
+	   <h1 id="loki"></h1>
+
+	   <button onmouseleave="document.getElementById('loki1').innerHTML='hey i am loki thor big bro'"style="height: 50px;width: 100px;background: black;font-size: 20px;color: white;">
+	   	no
+	   	
+	   </button>
+	   <h1 id="loki1"></h1>
+
+	   <button onkeyup="document.getElementById('ram').innerHTML='hey i am shree ram ayodhya king' "style="height: 50px;width: 100px;background: black;font-size: 20px;color: white;">
+	   	 avasye
+
+	   </button>
+
+
+	   <h1 id="ram"></h1>
+
+	   <button onkeydown="document.getElementById('laxman').innerHTML='hey i am laxman shree ram brother'"style="height: 50px;width: 100px;background: black;font-size: 20px;color: white;">
+	   	aageya
+	   	
+	   </button>
+	   <h1 id="laxman"></h1>
+	   <button onclick="print()"style="height: 50px;width: 100px;background: gainsboro;font-size: 20px;color: blue;">all print
+	   	
+	   </button>
+	   <br><br>
+
+<script type="text/javascript">
+	   document.write('ram and laxman')
+
+	   console.log(42+45)
+	   console.log(85*78)
+     </script>
+
+     <div style="height:200px;width:200px;background:gold;"id="zoom" onmouseenter="document.getElementById('zoom').style.height='300px'">
+     	
+     </div>
+   <script>
+   	document.getElementById('thor').style.color='red';
+   	document.getElementById('thor').style.backgroundColor='green';
+   	document.getElementById('thor').style.fontSize='100px'
+
+   </script>
+<!--    <button onmouseenter="moon()" >
+   	
+   </button> -->
+
+   <div style="height:150px;width:150px;background:red;" id="moon1" >
+   	
+   </div>
+
+   <button onclick="moon()">zooooooooooooooooooom</button>
+   <script>
+
+  function moon(){
+   	document.getElementById('moon1').style.height='200px';
+   	document.getElementById('moon1').style.width='200px';
+   	document.getElementById('moon1').style.backgroundColor='yellow';
+
+   }
+</script>
+	   
+
+
+
+
+
+
+</body>
+</html>

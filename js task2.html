@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js task2</title>
+</head>
+<body onload="india()">
+	<div id="myform" style="display: none;">
+<form>
+	<center>
+
+	<span style="font-size: 20px;">name</span>
+	<input type="text" name=""onfocus="frist()"style="height: 20px;"Id="frist1">
+	<br><br>
+
+	<span style="font-size: 20px;">Last</span>
+	<input type="text" name=""onfocus="second()"style="height: 20px;"id="second1">
+	<br><br>
+
+
+	<button style="height:40px;width: 100px;border-radius: 100px;border: none;background: blue;">sumit</button>
+	
+</center>
+</form>
+<div Id="box">
+	<div id="img1">
+		<img src="img/hi1.png"style="height: 100%;width: 100%;">
+		
+	</div>
+	<hr id="la">
+	<div id="in">
+		<center><h1>INQUIRY NOW</h1></center>
+		
+	</div>
+	<div id="inp">
+		<input type="text" name=""placeholder="your name"id="inp1">
+		<input type="text" name=""placeholder="your phone"id="inp2">
+		<input type="text" name=""placeholder="your Email"id="inp3">
+		<select id="inp4">
+			<option>select course</option>
+			<option>full stack developer</option>
+			<option>front-end developer</option>
+			<option>back - end developer</option>
+			<option>graphic design</option>
+			<option>digital marketing</option>
+			<option>java/php/python</option>
+		</select>
+		<br><br>
+		<hr id="la1">
+		<a href="#"><button id="bu">Sumit Now</button></a>
+		<hr id="la2">
+	 <button onclick="gayab()">close</button>
+	</div>
+	
+	</div>
+</div>
+
+<script >
+	function gayab() {
+		document.getElementById('myform').style.display='none';
+	}
+	function frist(){
+		document.getElementById('frist1').style.cssText="background:lightblue;height:100px;"
+	}
+
+	function second(){
+		document.getElementById('second1').style.cssText="background:lightblue;height:50px;"
+	}
+
+	
+
+		document.getElementById('box').style.cssText="height:700px;width:800px;background:red;margin-left:250px";
+		document.getElementById('img1').style.cssText="height:300px;width:100%;background:black;";
+		document.getElementById('in').style.cssText="height:100px;width:100%;color:yellow;";
+		document.getElementById('inp').style.cssText="height:300px;width:100%;background:red;";
+		document.getElementById('inp1').style.cssText="height:50px;width:300px;background:lightblue;margin-left:50px;margin-top:30px;border:none;border-radius:10px;";
+		document.getElementById('inp2').style.cssText="height:50px;width:300px;background:lightblue;margin-left:50px;margin-top:30px;border:none;border-radius:10px;";
+		document.getElementById('inp3').style.cssText="height:50px;width:300px;background:lightblue;margin-left:50px;margin-top:30px;border:none;border-radius:10px;";
+		document.getElementById('inp4').style.cssText="height:50px;width:300px;background:lightblue;margin-left:50px;margin-top:50px;border:none;border-radius:10px;";
+		document.getElementById('bu').style.cssText="height:50px;width:150px;background:yellow;margin-left:50px;margin-top:10px;border:none;border-radius:10px;font-size:15px";
+		document.getElementById('la').style.cssText="height:1px;width:700px;background:#e5e5e5;border:none;";
+		document.getElementById('la1').style.cssText="height:1px;width:700px;background:#e5e5e5;border:none;";
+		document.getElementById('la2').style.cssText="height:1px;width:700px;background:#e5e5e5;border:none;";
+
+function india(){
+document.getElementById('myform').style.display='block';
+}
+
+
+
+</script>
+</body>
+</html>
